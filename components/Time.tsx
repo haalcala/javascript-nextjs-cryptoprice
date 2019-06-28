@@ -13,7 +13,7 @@ const Time = () => {
 		return () => {};
 	}, []);
 
-	return <div>{time.toString()}</div>;
+	return <div>{new Date().toString()}</div>;
 };
 
 export default Time;

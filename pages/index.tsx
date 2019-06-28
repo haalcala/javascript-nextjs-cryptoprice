@@ -8,12 +8,12 @@ const Index = props => {
 
 	const [bpi, setbpi] = useState(props.bpi);
 
-	// setInterval(async () => {
-	// 	const res = await fetch("https://api.coindesk.com/v1/bpi/currentprice.json");
-	// 	const data = await res.json();
+	setTimeout(async () => {
+		const res = await fetch("https://api.coindesk.com/v1/bpi/currentprice.json");
+		const data = await res.json();
 
-	// 	setbpi(data.bpi);
-	// }, 10000);
+		setbpi(data.bpi);
+	}, 10000);
 
 	return (
 		<div className="title" style={{ border: "1px solid red", height: "100%", display: "flex" }}>
