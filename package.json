@@ -20,7 +20,7 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"start": "next start"
+		"start": "next start -- $( [ \"$PORT\" != \"\" ] && echo \"-p $PORT\" || echo \"-p 3000\" ) "
 	},
 	"keywords": [],
 	"author": " <Your Name> (example.com)",
