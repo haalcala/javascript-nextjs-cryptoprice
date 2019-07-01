@@ -1,0 +1,7 @@
+{
+	"name": "nextjs-crypto-price-sample",
+	"description": "Next.JS crypto price sample",
+	"repository": "https://github.com/haalcala/javascript-nextjs-cryptoprice",
+	"logo": "https://node-js-sample.herokuapp.com/node.png",
+	"keywords": ["node", "express", "static", "nextjs", "cryptocurrency"]
+}
